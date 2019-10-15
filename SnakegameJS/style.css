@@ -1,0 +1,180 @@
+#score {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#playerName {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: green;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.canvas{
+    background-color: gold;
+}
+
+.btn{
+    font-weight: bold;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    width: 8.750em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.green {
+    color: gold;
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+    color: gold;
+}
+
+.btnNew{
+    margin-top:.5em;
+    padding: .5em;
+    color: gold;
+    background-color: blue;
+}
+
+.btn:hover{
+    color: gold;
+    transform: scale(1.2) perspective(1px)
+}
+
+/* img {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  }
+
+img:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+            cursor: pointer;
+    
+} */
+
+#center{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.modal-header {
+ background-color: green;
+ color: gold;
+}
+
+.playerName {
+    margin-top: 3rem;
+    font-weight: bold;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+body{
+    background-color: tan;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2.5rem !important;
+}
+
+.modal-body {
+    background-color: gold;
+}
+
+.modal-footer {
+    background-color: green;
+}
+
+
+/* #startGame {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+            transition:         transform .8s ease-in-out;
+  } */
+
+/* #startGame:hover {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+            cursor: pointer;
+    
+} */
+
+/*Object will only show if screen is at least this size*/
+@media only screen and (max-width: 64.125em) {
+    #hideIm {
+        display: none;
+    }
+}
+
+/*image will only show if the screen is at least this size*/
+@media only screen and (max-width: 64.125em) {
+    img {
+        width: 15.625em;
+    }
+}
+
+@media only screen and (max-width: 64.125em) {
+    h1 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 64.125em) {
+    h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 64.125em) {
+    h3 {
+        text-align: center;
+    }
+}
+
+/*Buttons will only show if the screen is at least this size*/
+@media only screen and (max-width: 64.125em) {
+    #homePage {
+        display: none;
+    }
+    #restartBtn {
+        display: none;
+    }
+    #rulesBtn {
+        display: none;
+    }
+}
+
+/*buttons will only show if the screen is at least this small*/
+@media only screen and (min-width: 64.125em) {
+    #smallBtn {
+        display: none;
+    }
+
+    .hide {
+        display: none;
+    }
+}
+
