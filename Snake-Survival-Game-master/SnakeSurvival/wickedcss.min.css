@@ -1,0 +1,100 @@
+/*!
+ * WickedCSS v1.0 (https://github.com/kristofferandreasen/wickedCSS)
+ * Copyright 2015 Kristoffer Andreasen
+ * MIT License
+ */
+
+.fadeIn, .slideDown {
+    visibility: visible!important
+}
+
+.slideDown {
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: ease
+}
+
+.slideDown {
+    animation-timing-function: ease;
+    animation-duration: 1s
+}
+
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+        opacity: 0
+    }
+    100% {
+        -webkit-transform: translateY(0);
+        opacity: 1
+    }
+}
+
+
+.fadeIn {
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease
+}
+
+.fadeIn {
+    animation-timing-function: ease;
+    animation-duration: 2s
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.fadeOut {
+    animation-name: fadeOut;
+    -webkit-animation-name: fadeOut;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-timing-function: ease;
+    animation-fill-mode: forwards
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    0% {
+        opacity: 1
+    }
+    100% {
+        opacity: 0
+    }
+}
